@@ -1,0 +1,55 @@
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  &.container {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .box {
+    grid-column: 1 / -1;
+    grid-row: 1 / -2;
+    max-width: 1000px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+  .menu{
+    grid-column: 1 / -1;
+    grid-row: -2 / -1;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    .random{
+      max-width: 100%;
+    }
+  }
+}
+.counter {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 100%;
+}
+p{
+  position: relative;
+  top: 80%;
+  text-align: center;
+}
+.crystal{
+  color: #00000000;
+}
+.power{
+  color: #00000000;
+}
+

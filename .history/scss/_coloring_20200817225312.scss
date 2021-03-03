@@ -1,0 +1,59 @@
+html {
+  background: $LegoBlack;
+  color: $LegoWhite;
+}
+
+
+div {
+  border: 1px solid black;
+
+  // &.container {}
+
+  // &.box {}
+
+  // &.score {}
+}
+
+// .flying {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/b/b0/Icon_Flying.png/revision/latest?cb=20180820182954);
+// }
+
+// .first_strike {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/c/cf/Icon_First_Strike.png/revision/latest?cb=20180820182954);
+// }
+
+// .deathtouch {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/d/db/Icon_Deathtouch.png/revision/latest?cb=20180820182952);
+// }
+
+// .hexproof {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/2/2a/Icon_Hexproof.png/revision/latest?cb=20180820182955);
+// }
+
+// .lifelink {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/1/1f/Icon_Lifelink.png/revision/latest?cb=20180820182959);
+// }
+
+// .menace {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/0/0c/Icon_Menace.png/revision/latest?cb=20180820183000);
+// }
+
+// .reach {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/5/5e/Icon_Reach.png/revision/latest?cb=20180820183000);
+// }
+
+// .trample {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/c/c7/Icon_Trample.png/revision/latest?cb=20180820183001);
+// }
+
+// .vigilance {
+//   background-image: url(https://vignette.wikia.nocookie.net/magicarena/images/6/61/Icon_Vigilance.png/revision/latest?cb=20180820183002);
+// }
+
+// .power {
+//   background-image: url(https://i.ibb.co/R7fBb58/Image3.png);
+// }
+
+.off {
+  background-color: #eee;
+}

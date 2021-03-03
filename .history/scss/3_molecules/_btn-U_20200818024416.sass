@@ -1,0 +1,72 @@
+.btn-U
+  display: inline-block
+  border: none
+  padding: .7rem 1rem
+  border-radius: 0.5rem
+  width: 6rem
+  margin: #{calc(12px + (15 - 12) * ((100vmax - 1280px) / (320 - 1280)))}
+  text-decoration: none
+  background: rgb(0, 105, 237)
+  color: #ffffff
+  font-family: sans-serif
+  font-size: 1rem
+  cursor: pointer
+  text-align: center
+  transition: background 250ms ease-in-out, transform 150ms ease
+  -webkit-appearance: none
+  -moz-appearance: none
+  &:hover
+    background: rgb(0, 83, 186)
+
+  &:focus
+    background: rgb(0, 83, 186)
+    outline: 1px solid rgba(255, 255, 255, 0.2)
+    outline-offset: -0.5rem
+
+  &:active
+    transform: scale(0.99)
+
+.Input
+  font-size: 1rem
+  padding: .1rem .5rem
+  height: 1.5rem
+  display: inline-block
+  border: none
+  border-radius: 0.5rem
+  margin: #{calc(12px + (18 - 12) * ((100vmax - 1280px) / (320 - 1280)))}
+  text-decoration: none
+  background: #f0f0f0
+  font-family: sans-serif
+  font-size: 1rem
+  cursor: pointer
+  text-align: center
+  transition: background 250ms ease-in-out, transform 150ms ease
+  -webkit-appearance: none
+  -moz-appearance: none
+  &:hover
+    background: #fff
+    outline: 1px solid rgb(0, 0, 0)
+
+
+  &:focus
+    outline: 1px solid rgba(0, 0, 0, 0.109)
+    outline-offset: -0.3rem
+
+  &:active
+    transform: scale(0.99)
+
+.ezSelect
+  // display: block
+  font-size: 1rem
+  padding: .1rem 1rem
+  height: 1.5rem
+  max-width: 100%
+  box-sizing: border-box
+  margin: 0
+  border: 1px solid #aaa
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04)
+  -moz-appearance: none
+  -webkit-appearance: none
+  appearance: none
+  background-color: #eee
+
